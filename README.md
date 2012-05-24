@@ -42,12 +42,12 @@ Or install it yourself as:
 
 ## Usage
 
->> require 'id_encoder'
-=> true
->> IdEncoder::UrlEncoder.encode_url(10)
-=> "csqsc"
->> IdEncoder::UrlEncoder.decode_url('csqsc')
-=> 10
+	>> require 'id_encoder'
+	=> true
+	>> IdEncoder::UrlEncoder.encode_url(10)
+	=> "csqsc"
+	>> IdEncoder::UrlEncoder.decode_url('csqsc')
+	=> 10
 
 ## Contributing
 
